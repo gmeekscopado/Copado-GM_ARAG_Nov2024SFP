@@ -4,13 +4,50 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Coverage_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Coverage_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Coverage_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Coverage_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Network_Attorney_Assigned__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.VIP__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Account</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
