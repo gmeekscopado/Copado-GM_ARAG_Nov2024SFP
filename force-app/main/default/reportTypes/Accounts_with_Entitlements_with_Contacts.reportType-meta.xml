@@ -206,32 +206,27 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Last_Contact_Date__c</field>
+            <field>Coverage_Status__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Contact_Channel__c</field>
+            <field>Coverage_Type__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>CSAT_Score__c</field>
+            <field>Coverage_Start_Date__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Response_Time_Minutes__c</field>
+            <field>Coverage_End_Date__c</field>
             <table>Account</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Response_Time_Hours__c</field>
-            <table>Account</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Next_Followup_Date__c</field>
+            <field>Network_Attorney_Assigned__c</field>
             <table>Account</table>
         </columns>
         <masterLabel>Accounts</masterLabel>
